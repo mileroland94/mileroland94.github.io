@@ -1,0 +1,171 @@
+@font-face 
+{
+    font-family:"IndieFlower-Regular" ;
+    src: url("IndieFlower-Regular.ttf");
+}
+
+#contact {
+    color: rgb(255, 0, 0);
+}
+
+#emailcím {
+    color: rgb(255, 0, 0);
+}
+
+#cim {
+    color: white;
+}
+
+#tel {
+    color: rgb(255, 255, 255);
+}
+
+#szam {
+    color: rgb(255, 0, 0);
+}
+
+h1
+{
+    font-size: 50px;
+    margin: auto;
+    font-family:"IndieFlower-Regular" ;
+    text-align: center;
+    line-height: 50px;
+   
+}
+
+h2
+{
+    font-size: 50px;
+    margin: auto;
+    font-family:"IndieFlower-Regular" ;
+    text-align: center;
+    line-height: 100px;
+   
+}
+
+caption
+{
+    color: rgb(0, 0, 0);
+    font-family:"IndieFlower-Regular" ;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+table
+{
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+a 
+{
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+p
+{
+    color: rgb(255, 230, 0);
+    font-size: 32px;
+    text-align: center;
+    margin: auto;
+    font-weight: 200;
+    line-height: 100px;
+}
+
+.nyitvatartas
+{
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.vasarnap
+{
+    color: red;
+}
+
+
+
+
+
+#főoldallink
+{
+   
+    position: fixed;
+    margin-top: 50px;
+   
+    font-family: "IndieFlower-Regular" ,sans-serif;
+
+   
+
+    
+    
+}
+
+#etlaplink
+{
+    
+    margin-top: 150px;
+    position: fixed;
+    
+    
+    
+   
+    font-family: "IndieFlower-Regular" ,sans-serif;
+    
+    
+}
+
+#login
+{
+    position: fixed;
+    margin-top: 250px;
+   
+    font-family: "IndieFlower-Regular" ,sans-serif;
+}
+
+
+
+
+
+
+
+
+.linkek
+{
+    
+    
+    position: fixed;
+font-size: 45px;
+color: red;
+
+border: solid 5px black;
+border-radius: 45px;
+padding: 0px 5px 0px;
+background-color: black;
+background-clip: initial;
+
+box-shadow: 0 0 20px black;
+}
+
+
+
+
+
+.szöveg
+{
+    background-image: url('képek\carrots-food-fresh-freshness-616404.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+

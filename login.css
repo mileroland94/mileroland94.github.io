@@ -1,0 +1,121 @@
+
+
+
+
+.login-div input    /* A ".login-div en belűl szóközz után beírt inputra vonatkozzon az alábbi parancs */
+{
+    display: inline; /*MIndent rendezzen új sorban */
+
+    margin-bottom: 7px;
+    
+
+}
+
+
+
+
+
+
+
+input.form-controll[type=email] /*Pontos rámutatás egy adott részre*/
+{
+    background-color: rgb(255, 255, 255);
+    margin-left: 25px;
+}
+
+input.form-controll[type=password]
+{
+    
+    background-color: rgb(255, 255, 255);
+}
+
+.login-div input
+{
+   border-color: rgb(0, 0, 0);
+   border-radius: 45px;
+   box-shadow: 0 0 5px rgb(0, 0, 0);
+   padding-top: 4px;
+   font-size: 12px;
+   text-align: left;
+}
+
+input.form-controll[type=email]:focus
+{
+padding: 6px;
+
+}
+
+input.form-controll[type=password]:focus
+{
+    padding: 6px;
+}
+
+
+
+
+
+
+input.form-controll:hover
+{
+    background-color: rgb(207, 207, 207);
+    
+}
+
+input.form-controll:active
+{
+    background-color: rgb(206, 206, 206);
+    border: none;
+    
+}
+
+
+
+
+.summit-btn:hover
+{
+    box-shadow: 0 0 2px rgb(170, 170, 170);
+
+}
+
+.summit-btn:hover
+{
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+
+}
+
+.summit-btn:active
+{
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+
+}
+
+.summit-btn
+{
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+
+}
+
+
+
+.login-div
+{
+    margin-top: 200px;
+    margin-left: 550px;
+
+}
+
+.labels
+{
+    
+    font-weight: 700;
+
+}
+
+#h1
+{
+position: fixed;
+margin-top: -100px;
+margin-left: 600px;
+
+font-family: "IndieFlower-Regular" ,sans-serif;
+}

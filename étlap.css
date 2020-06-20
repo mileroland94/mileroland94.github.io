@@ -1,0 +1,72 @@
+html
+{
+   background-size: cover;
+}
+
+
+
+
+@font-face
+{
+    font-family:"IndieFlower-Regular" ;
+    src: url("IndieFlower-Regular.ttf");
+    
+}
+html{
+    line-height:initial;
+}
+h1 
+{
+    font-family: "IndieFlower-Regular";
+    font-size: 150px;
+    text-align: center;
+
+}
+
+table
+{
+    font-size: 30px;
+    margin: auto;
+    font-family: "IndieFlower-Regular";
+    font-weight: 800;
+    text-align: center;
+}
+.étlap
+{
+    background-color: tomato;
+}
+
+.Mindenamivoros
+{
+    color: red;
+}
+
+a
+{
+    font-family: "IndieFlower-Regular" ,sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.link
+{
+    position: fixed;
+    
+    border-style: solid;    /* a linket körűlvevő szegélystílusa*/
+    border-width: 2px;      /*a szegély vastagsága*/
+    border-color: red;     /*a szegély színe */
+    border-radius: 30px;    /*a szegély éleinek hajlási szöge*/
+    box-shadow: 0 0 15px black ;
+    padding: 2px 10px 2px;  /*a tartalom és aszegély közti hely px-ben megadva*/         
+
+    
+    background-color:  red;   /*a szegélyt belűl kitöltő szín megadása*/
+    background-clip:padding-box; /*itt adom meg hogy a kiválasztott háttérszín meddig terjedő legyen.*/
+    
+    /*:padding-box; az elem belső padkájáig terjedjen 
+      :content-box; az elem tartalmáig terjedjen
+      :initial-box;  ahol kezdődik az egész tehát a border széléig terjedjen.
+      :padding-box; az elem belső padkájáig terjedjen. */
+    
+   
+}
