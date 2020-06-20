@@ -144,7 +144,7 @@ text-transform: uppercase;
 {
     
     
-    position: fixed;
+    
 font-size: 45px;
 color: red;
 
@@ -169,3 +169,13 @@ box-shadow: 0 0 20px black;
     background-size: 100% 100%;
 }
 
+
+.view
+{
+    size: 50vw;
+}
+
+.linkek
+{
+size: 12vw;
+}
